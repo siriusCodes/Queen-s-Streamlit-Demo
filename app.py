@@ -13,4 +13,6 @@ url = "https://www.iposcoop.com/last-100-ipos/"
 dfs = pd.read_html(url)
 df = dfs[0]
 
+st.dataframe(df)
+
 
